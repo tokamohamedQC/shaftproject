@@ -1,0 +1,65 @@
+[INFO ] 2023-12-08 22:50:25.228 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231026[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-08 22:50:26.004 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-12-08 22:50:26.005 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-08 22:50:26.104 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-08 22:50:26.424 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-08 22:50:26.436 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-08 22:50:26.592 [main] Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-08 22:50:26.621 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-08 22:50:26.723 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-08 22:50:26.732 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-08 22:50:26.845 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                             Test Method: 'com.qacart.shaft.OpenBrowser.openBrowser'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-08 22:50:26.869 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-08 22:50:26.878 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\User\Desktop\shaft..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-08 22:50:26.879 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-12-08 22:50:26.879 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2023-12-08 22:50:27.461 [main] ReportManager - Dec 08, 2023 10:50:27 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+[WARN ] 2023-12-08 22:50:27.461 [main] ReportManager - WARNING: The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\User\AppData\Roaming\npm\chromedriver.cmd might not be compatible with the detected chrome version (120.0.6099.71); currently, chromedriver 120.0.6099.71 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry
+[WARN ] 2023-12-08 22:50:28.821 [main] ReportManager - Dec 08, 2023 10:50:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-12-08 22:50:28.821 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 120, returning the closest version; found: 118; Please update to a Selenium version that supports CDP version 120
+[INFO ] 2023-12-08 22:50:28.832 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-12-08 22:50:28.884 [main] ReportManager - Target URL: "https://hatem-hatamleh.github.io/Selenium-html/locators.html"
+[INFO ] 2023-12-08 22:50:28.912 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-08 22:50:29.926 [main] ReportManager - Navigate to url "https://hatem-hatamleh.github.io/Selenium-html/locators.html".
+[INFO ] 2023-12-08 22:50:29.941 [main] ReportManager - Get current url "https://hatem-hatamleh.github.io/Selenium-html/locators.html".
+[INFO ] 2023-12-08 22:50:29.941 [main] ReportManager - https://hatem-hatamleh.github.io/Selenium-html/locators.html
+[INFO ] 2023-12-08 22:50:29.952 [main] ReportManager - Get current window title "Locators".
+[INFO ] 2023-12-08 22:50:29.953 [main] ReportManager - Locators
+[INFO ] 2023-12-08 22:50:30.051 [main] ReportManager - Get text "Selenium" from "By.id: selenium".
+[INFO ] 2023-12-08 22:50:30.116 [main] ReportManager - Get text "Appium" from "By.name: appium".
+[INFO ] 2023-12-08 22:50:30.166 [main] ReportManager - Get text "Cypress" from "By.cssSelector: [data-testid=cypress".
+[INFO ] 2023-12-08 22:50:30.166 [main] ReportManager - Selenium
+[INFO ] 2023-12-08 22:50:30.166 [main] ReportManager - Appium
+[INFO ] 2023-12-08 22:50:30.166 [main] ReportManager - Cypress
+[INFO ] 2023-12-08 22:50:30.170 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: openBrowser'
+[INFO ] 2023-12-08 22:50:30.170 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Finished Execution of Test Method: 'com.qacart.shaft.OpenBrowser.openBrowser'                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-08 22:50:30.256 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-08 22:50:30.258 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-08 22:50:30.258 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-08 22:50:30.259 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

@@ -9,7 +9,7 @@ public class OpenBrowser {
     @Test
     public void openBrowser(){
         SHAFT.GUI.WebDriver driver = new SHAFT.GUI.WebDriver();
-        driver.browser().navigateToURL("https://hatem-hatamleh.github.io/Selenium-html/actions.html");
+        driver.browser().navigateToURL("https://hatem-hatamleh.github.io/Selenium-html/locators.html");
         String url = driver.browser().getCurrentURL();
         System.out.println(url);
         String title = driver.browser().getCurrentWindowTitle();
